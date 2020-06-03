@@ -10,7 +10,7 @@ print(Tokens)
 #OR
 import spacy
 nlp = spacy.load(‘en’)
-text = “Ram is going to london”
+text = "Ram is going to london"
 docx = nlp(text)
 tokens =[]
 for token in docx:
