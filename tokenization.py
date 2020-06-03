@@ -2,7 +2,7 @@
 
 Import spacy
 nlp = spacy.load(‘en’)
-Text = “Ram is going to london”
+Text = "Ram is going to london"
 doc = nlp(Text)
 tokens = [token.text for token in docx]
 print(Tokens)
